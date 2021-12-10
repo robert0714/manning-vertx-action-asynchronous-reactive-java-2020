@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-  implementation("io.vertx:vertx-core:4.0.3")
+  implementation("io.vertx:vertx-core:4.2.1")
   implementation("io.vertx:vertx-rx-java2:4.0.3")
   implementation("io.vertx:vertx-web-client:4.0.3")
 
@@ -21,7 +21,7 @@ dependencies {
   implementation("io.vertx:vertx-lang-kotlin-coroutines:4.0.3")
   implementation(kotlin("stdlib-jdk8"))
 
-  implementation("ch.qos.logback:logback-classic:1.2.3")
+  implementation("ch.qos.logback:logback-classic:1.2.7")
 }
 
 tasks.create<JavaExec>("run") {

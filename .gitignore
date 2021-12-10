@@ -10,3 +10,6 @@ out/
 tracks/
 sample.db
 __pycache__
+*/.classpath
+*/.project
+*/.settings/

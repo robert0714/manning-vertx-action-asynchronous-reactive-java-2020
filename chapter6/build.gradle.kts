@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-  implementation("io.vertx:vertx-core:4.0.3")
+  implementation("io.vertx:vertx-core:4.2.1")
   implementation("io.vertx:vertx-codegen:4.0.3")
   implementation("io.vertx:vertx-service-proxy:4.0.3")
 
